@@ -1,4 +1,4 @@
-package com.tdchien88.designParrtens.type01_Creational.chap11_FactoryMethodPattern;
+package com.tdchien88.designParrtens.type01_Creational.chap11_FactoryMethodPattern.plan;
 
 public class GetPlanFactory {
 	// use getPlan method to get object of type Plan

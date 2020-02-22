@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import com.tdchien88.designParrtens.type01_Creational.chap11_FactoryMethodPattern.plan.GetPlanFactory;
+import com.tdchien88.designParrtens.type01_Creational.chap11_FactoryMethodPattern.plan.Plan;
+
 public class RunMe {
 
 	public static void main(String[] args) throws IOException {

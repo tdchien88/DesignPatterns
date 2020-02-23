@@ -13,11 +13,11 @@ public class RunMe {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.print("Enter the name of Bank from where you want to take loan amount: ");
+		System.out.print("Enter the name of Bank from where you want to take loan amount [HDFC, ICICI, SBI]: ");
 		String bankName = br.readLine();
 
 		System.out.print("\n");
-		System.out.print("Enter the type of loan e.g. home loan or business loan or education loan : ");
+		System.out.print("Enter the type of loan [home, business, education]: ");
 
 		String loanName = br.readLine();
 		AbstractFactory bankFactory = FactoryCreator.getFactory("Bank");

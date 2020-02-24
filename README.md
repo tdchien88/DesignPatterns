@@ -1,12 +1,16 @@
 DesignPatterns
-===
+======
+###### 2020/01/25
 
 ## A. Design Patterns là gì?
 Design Pattern là một kỹ thuật trong lập trình hướng đối tượng, nó khá quan trọng và mọi lập trình viên muốn giỏi đều phải biết. Được sử dụng thường xuyên trong các ngôn ngữ OOP. Nó sẽ cung cấp cho bạn các "mẫu thiết kế", giải pháp để giải quyết các vấn đề chung, thường gặp trong lập trình. Các vấn đề mà bạn gặp phải có thể bạn sẽ tự nghĩ ra cách giải quyết nhưng có thể nó chưa phải là tối ưu. Design Pattern giúp bạn giải quyết vấn đề một cách tối ưu nhất, cung cấp cho bạn các giải pháp trong lập trình OOP.
 
 Design Patterns không phải là ngôn ngữ cụ thể nào cả. Nó có thể thực hiện được ở phần lớn các ngôn ngữ lập trình, chẳng hạn như Java, C#, thậm chí là Javascript hay bất kỳ ngôn ngữ lập trình nào khác.
 
-Mỗi pattern mô tả một vấn đề xảy ra lặp đi lặp lại, và trình bày trọng tâm của giải pháp cho vấn đề đó, theo cách mà bạn có thể dùng đi dùng lại hàng triệu lần mà không cần phải suy nghĩ.
+> Mỗi pattern mô tả một vấn đề xảy ra lặp đi lặp lại, và trình bày trọng tâm của giải pháp cho vấn đề đó, theo cách mà bạn có thể dùng đi dùng lại hàng triệu lần mà không cần phải suy nghĩ.
+
+> ~ Christopher Alexander ~
+
 
 ## B. Phân loại Design Patterns
 
@@ -43,7 +47,8 @@ Mỗi pattern mô tả một vấn đề xảy ra lặp đi lặp lại, và tr�
 - [Visitor](https://gpcoder.com/4813-huong-dan-java-design-pattern-visitor/)
 - [Null Object](https://www.geeksforgeeks.org/null-object-design-pattern/)
 
-## C. Nguồn: 
+
+#### Nguồn: 
 [javatpoint](https://www.javatpoint.com/design-patterns-in-java)
 
 [gpcoder](https://gpcoder.com/4164-gioi-thieu-design-patterns/)

@@ -48,7 +48,8 @@ Design Patterns không phải là ngôn ngữ cụ thể nào cả. Nó có th�
 
 
 #### Nguồn: 
-[javatpoint](https://www.javatpoint.com/design-patterns-in-java)
 
-[gpcoder](https://gpcoder.com/4164-gioi-thieu-design-patterns/)
+- [javatpoint](https://www.javatpoint.com/design-patterns-in-java)
+
+- [gpcoder](https://gpcoder.com/4164-gioi-thieu-design-patterns/)
 

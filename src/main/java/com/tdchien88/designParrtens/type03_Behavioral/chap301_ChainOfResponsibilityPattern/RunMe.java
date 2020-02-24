@@ -2,9 +2,24 @@ package com.tdchien88.designParrtens.type03_Behavioral.chap301_ChainOfResponsibi
 
 public class RunMe {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	private static Logger doChaining() {
+		Logger consoleLogger = new ConsoleBasedLogger(Logger.OUTPUTINFO);
 
+		Logger errorLogger = new ErrorBasedLogger(Logger.ERRORINFO);
+		consoleLogger.setNextLevelLogger(errorLogger);
+
+		Logger debugLogger = new DebugBasedLogger(Logger.DEBUGINFO);
+		errorLogger.setNextLevelLogger(debugLogger);
+
+		return consoleLogger;
+	}
+
+	public static void main(String args[]) {
+		Logger chainLogger = doChaining();
+
+		chainLogger.logMessage(Logger.OUTPUTINFO, "Enter the sequence of values ");
+		chainLogger.logMessage(Logger.ERRORINFO, "An error is occured now");
+		chainLogger.logMessage(Logger.DEBUGINFO, "This was the error now debugging is compeled");
 	}
 
 }
